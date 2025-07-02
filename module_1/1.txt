@@ -1,0 +1,43 @@
+-- HTML Tags
+
+<b></b> - Only Visual, makes it bold
+<strong></strong> - sementic, convays that its important 
+
+<i></i> - Only Visual, makes is italic
+<em></em> - sementic, convays that its important 
+
+<h1> -> <h6> -> heading 
+bigest -> smallest 
+
+<small>make inside the tag small</small>
+
+inline vs block elements 
+
+<ul>
+    <li></li>
+</ul>
+
+<ol>
+    <li></li>
+</ol>
+
+<div>
+    Containler tag
+    Box model
+</div>
+
+-- Nested List
+<ul>
+
+    <li>
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+
+</ul>
+
+
+ctrl + L -> to see the entire url for a website in a browser
+ 
+<a href="link.com" target="_blank">Link Text</a> -> open in a diffrent tab 
