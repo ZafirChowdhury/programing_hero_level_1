@@ -1,0 +1,22 @@
+body {
+    font-family: cursive, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(218, 23, 175);
+}
+
+p {
+    font-size: large;
+
+}
+
+.small {
+    font-size: xx-small;
+}
+
+li {
+    font-size: large;
+    list-style-type: "🦎";
+}

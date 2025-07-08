@@ -1,0 +1,14 @@
+input[type="password"] {
+    
+} -> attribute selector, select only the input field with password type
+
+border-radius: 10px; -> used to make the border more rounded 
+border-radius: a b c d; -> can be used to make different types of borders
+
+display: none;    -> removes the element
+display: hidden;  -> hides the element but it still takes up space
+
+box-shadow: xpx, ypx, opx; -> adds a shadow behind the element (opx -> opacity)
+shadows can be different colors
+
+did not do other practice task because I been doing : https://github.com/ZafirChowdhury/kevin_html_css_beginners
