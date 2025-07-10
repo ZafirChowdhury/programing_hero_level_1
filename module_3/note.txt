@@ -1,0 +1,15 @@
+git init <- Initialize the repo
+
+git add " " <- Add a file to be tracked by git
+
+git add . <- Add all the files in current directory
+
+git commit -m " " <- Make a commit with a massage 
+
+git push <- Push commits from local repo to remote repo
+
+git branch <- See all of your branch
+
+git branch -M main <- Rename master/main to main to ensure consistency
+
+Still a bit confused with git, Will watch prime git tutorial to learn more
