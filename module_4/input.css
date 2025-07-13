@@ -1,0 +1,10 @@
+.input-form {
+    border: black solid 5px;
+    padding: 20px;
+}
+
+.input-box {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}

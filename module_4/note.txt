@@ -1,0 +1,20 @@
+<label for="name">Your Name</label>
+<input type="text" name="" id="name">
+
+for="name" <--> id="name" -> associating labe with input field
+
+<fieldset> -> Grouping same inputs together
+
+use same name to group together radio buttons
+
+flex: wrap;
+
+if I want to center any div to the center of the screen ->
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+
+margin: 0 auto;
+
+width: 100; <- child with this will take up 100% of the parents width

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            max-inline-size: 1000px;
+            margin-inline: auto;
+        }
+
+        img {
+            display: block;
+            max-inline-size: 100%;
+        }
+
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 50px;  
+            align-items: center;   
+        }
+
+        .card {
+            inline-size: 300px;
+        }
+
+        .card img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="two-column-layout">
+
+        <div>
+            <h1>Lorm Title</h1>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repellendus exercitationem soluta eum voluptates, doloremque perspiciatis nihil adipisci fuga qui vero vel. Eveniet dolores autem impedit expedita dolorem vero soluta.</p>
+        </div>
+
+        <div>
+            <img src="devs_working.jpg" alt="Developers working in a office">
+        </div>
+
+    </div>
+
+    <section class="card-section">
+        <h2>Our prodects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aliquid consequatur, sunt debitis amet enim doloribus dolorum odit aperiam, pariatur cum reiciendis hic obcaecati tenetur porro quo! Eaque, natus assumenda?</p>
+        
+        <div class="card-container">
+
+            <div class="card">
+                <img src="amd-ryzen-7-7700-budget-gaming-pc-05-500x500.webp" alt="A picture of a gaming pc">
+                <p>Key Features
+                    Model: Ryzen 7 7700 Desktop PC
+                    AMD Ryzen 7 7700 Gaming Processor
+                    MSI PRO B650M-P DDR5 AMD AM5 mATX Motherboard
+                    TEAM VULCAN RED 8GB DDR5 6000MHz Gaming Desktop RAM
+                    Team MP44L 500GB M.2 PCIe Gen4 NVMe SSD
+                </p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
