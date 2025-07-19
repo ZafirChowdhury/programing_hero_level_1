@@ -1,0 +1,156 @@
+main {
+    max-inline-size: 1140px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+ul a {
+    list-style: none;
+    text-decoration: none;
+    color: #474747;
+}
+
+.header {
+    background-image: url("/images/developer.png"), url(images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    max-block-size: 800px;
+    background-color: #FFF8F3;
+}
+
+.dev-name-and-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 38px 0 170px;
+}
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.dev-icon {
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.orange-font{
+    color: #FD6E0A;
+}
+
+.orange-button {
+    background-color: #FD6E0A;
+    padding: 15px;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.contact-button {
+    padding: 15px;
+    border-radius: 5%;
+    color: #FD6E0A;
+    border: #FD6E0A solid 1px;
+    font-weight: bolder;
+    font-size: 1em;
+    background-color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 170px;
+}
+
+.about-me {
+    display: block;
+
+    background-color: #FFF8F3;
+    
+    margin: none;
+    border-radius: 5%;
+
+    padding: 80px 130px;
+    margin: 130px 30px;
+
+    text-align: center;
+}
+
+.about-me-info-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.about-me-info-box span {
+    font-weight: bolder;
+}
+
+.what-i-do {
+    text-align: center;
+    padding: 80px 130px;
+    margin: 130px 30px;
+    font-size: 1.1em;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.skills div {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.resume-summary {
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;   
+    text-align: start;
+}
+
+.resume-summary-item {
+    
+}
+
+.download-cv {
+    text-align: center;    
+}
+
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.footer-col {
+    width: 50%;
+}
+
+footer input, footer textarea {
+    display: block;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+
+.social-icon-box {
+    display: flex;
+    gap: 10px;
+}
