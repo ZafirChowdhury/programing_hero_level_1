@@ -1,0 +1,10 @@
+em -> em*font-size-of-the-parent
+
+rem -> reletive to the font size of the root (best for font size)
+
+vw / vh -> 100% of the total viewport 
+ 
+vmax / vmin
+
+flex
+justify-content: flex - start, end, center;
