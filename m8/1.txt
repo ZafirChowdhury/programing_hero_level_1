@@ -1,0 +1,16 @@
+@media 
+flex-direction: column;
+
+flex: wrap;
+
+flex-box-child {
+    flex: 1;
+}; <- Every child takes up same ammout of space
+
+calc( (100% - 5px) / 2) -> to ensure that box dose not eat the empty space
+
+#box-1 {
+    grid-row: span 5;
+} <- This box in the grid takes up 5 fr
+
+Visit MDN Doc if working with grid col rows
