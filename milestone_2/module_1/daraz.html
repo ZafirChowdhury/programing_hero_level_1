@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .product {
+            border: solid black 1px;
+            
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        /* 
+            if max-width is 576 apply the follwing css 
+            for small device
+        */
+        @media screen and (max-width: 576px) {
+            .products {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        /* 
+            medium device
+        */
+         @media screen and (min-width: 577px) and (max-width:992px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+         }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="products">
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+        <div class="product">
+            <img src="nintendo-switch-lite-turquoise-500x500.webp" alt="">
+            <h3>Product</h3>
+            <h4>Price: $200</h4>
+            <p>This is a nice prodect.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
