@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    height: 400px;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.row-item {
+    flex: 1;
+}
+
+.row-item-vertical {
+    height: calc((100% - 5px) / 2);
+}
+
+.row img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+@media screen and (max-width: 566px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
